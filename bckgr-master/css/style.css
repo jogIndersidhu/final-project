@@ -1,0 +1,55 @@
+*{margin: 0; padding: 0;}
+
+h2{
+    text-align: end;
+    position: relative;
+    top: 550px;
+    font-family: sans-serif; 
+    font-weight: 900;
+    color: wheat;
+}
+
+p{
+    font-family: sans-serif; 
+    font-weight: 900;
+    text-align: justify;
+    background-image: linear-gradient(blue, lightblue);
+    margin-top: 1%;
+    padding: 2%;
+    font-size: 1.4em;
+}
+
+div{
+    background-image: url(../images/spring-lake-4352793_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+@media only screen and (max-width: 979px){
+    div{
+        background-image: url(../images/tree-3822149_1920.jpg);
+        background-position: top;
+        height: 450px;
+    }
+    p, h2{
+        font-size: 1.2em;
+    }
+    h2{
+        top: 400px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    div{
+        height: 300px;
+        background-image: url(../images/field-of-rapeseeds-4910374_1920.jpg);
+    }
+    p, h2{
+        font-size: 1em;
+    }
+    h2{
+        top: 250px;
+    }
+}
